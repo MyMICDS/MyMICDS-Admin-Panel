@@ -1,2 +1,19 @@
-# admin-panel
+# MyMICDS-Admin-Panel
 Admin panel for managing and moderating users on MyMICDS
+
+## Running
+
+### Pre-Run
+Generate a copy of _config.example.scss and within the same folder, create a _config.scss of the same contents
+```
+/src/styles/_confi.example.scss --->>>  /src/styles/_config.scss
+```
+### Run
+Type in the following to install dependencies and run for development:
+```
+$ npm install -D
+$ ng serve
+```
+
+## More Info
+[Main repository is located over here](https://github.com/michaelgira23/MyMICDS-v2)
