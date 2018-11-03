@@ -1,106 +1,14 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<base href="/">
-		<meta charset="utf-8">
-		<title>MyMICDS</title>
-		<!-- Looking for the full code? Check the "Inspect Element" menu! -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MymicdsAdminPanel</title>
+  <base href="/">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="MyMICDS.net for all of your MyMICDS.needs">
-
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-		<link rel="manifest" href="/assets/favicons/manifest.json">
-		<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#a61d35">
-		<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-		<meta name="apple-mobile-web-app-title" content="MyMICDS">
-		<meta name="application-name" content="MyMICDS">
-		<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
-		<meta name="theme-color" content="#a61d35">
-
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
-		<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>
-		<!-- Enable bootstrap 4 theme -->
-		<script>window.__theme = 'bs4';</script>
-		<style>
-			.loading-container {
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-
-			.loading-container .loading {
-				width: 35rem;
-				padding: 1rem;
-				text-align: center;
-				color: white;
-			}
-
-			.loading-container .loading .img-container {
-				margin-bottom: 0.5rem;
-				animation: rotate 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
-			}
-
-			.loading-container .loading .img-container img {
-				width: 5rem;
-				border-radius: 5rem;
-				animation: getUncomfortablyBigger 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite alternate;
-			}
-
-			@keyframes rotate {
-				from {
-					transform: rotate(0deg);
-				}
-
-				to {
-					transform: rotate(360deg);
-				}
-			}
-
-			@keyframes getUncomfortablyBigger {
-				from {
-					transform: scale(1);
-				}
-
-				to {
-					transform: scale(1.25);
-				}
-			}
-
-			.loading-container .loading h1 {
-				font-size: 3rem;
-				font-weight: 300;
-			}
-		</style>
-	</head>
-	<body>
-		<mymicds-app>
-			<div class="loading-container">
-				<div mymicds-blur class="loading">
-					<div class="img-container">
-						<img src="/assets/logo/logo.svg">
-					</div>
-					<h1>MyMICDS.net is MyMICDS.loading...</h1>
-				</div>
-			</div>
-		</mymicds-app>
-		<!-- Google Analytics -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-84767987-1', 'auto');
-
-		</script>
-		<!-- End Google Analytics -->
-	</body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
 </html>
